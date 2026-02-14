@@ -90,7 +90,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   
     //yes page
     valentineQuestion.innerHTML = `
-      <img src="./images/image7.gif" alt="Celebration duckie" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
+      <img src="./images/image7.gif" alt="Snoopy" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
       Gracias amor mio<br>
       <span style="font-size: 20px; color: #bd1e59;">y felicitaciones por tu primer san valentin!!! <3</span>
     `;
@@ -155,3 +155,4 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
     move();
   }
   
+
