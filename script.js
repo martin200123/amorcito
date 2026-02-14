@@ -21,7 +21,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   //raunaway button
   const runawayButtonLogic = (button) => {
     const moveButton = function () {
-      if (this.textContent.trim() === "Say yes or else...") {
+      if (this.textContent.trim() === "ya no me amas?") {
         const top = getRandomNumber(window.innerHeight - this.offsetHeight);
         const left = getRandomNumber(window.innerWidth - this.offsetWidth);
   
@@ -155,5 +155,6 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
     move();
   }
   
+
 
 
